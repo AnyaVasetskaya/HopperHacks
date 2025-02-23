@@ -9,25 +9,30 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Sigmar+One" />
 </head>
 <body>
-    <div id="titlepage"></div>
+    <div id="titlepage">
         <div class="title">Hopper Health</div>
+        <script src="script.js" async></script>
         <div class="grid" id="recsGrid">
             <div class="cell" id="baguette">
                 <img src="baguette.png" width="200" height="200">
             </div>
-            <div class="cell" id="ingredients">
+            <div class="cell" id="iningredients">
                 Include these ingredients:
                 <input type="text" placeholder="Enter text">
             </div>
             <div class="cell" id="button">See recommended recipes!
                 <img id="arrow" src="arrow.png" width="15" height="15">
             </div>
-            <div class="cell" id="ingredients">
+            <div class="cell" id="lettuce">
+                <img src="lettuce.webp" width="200" height="200">
+            </div>
+            <div class="cell" id="exingredients">
                 Exclude these Ingredients:
                 <input type="text" placeholder="Enter text">
             </div>
             <div class="cell" id="recs"></div>
         </div>
+        <div class="button-container" id="button-container"></div>
     </div>
 </body>
 </html>
