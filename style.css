@@ -1,0 +1,73 @@
+html {
+    font-family: Cuprum;
+    background-color: #65ccb8;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#desc1, #desc2, #desc3, #caloriecounter, .button, #ingredients{
+    background-color: #57ba98;
+    padding: 20px;
+    font-size: 1.85vw;
+    color: #c8edd7;
+    border-radius: 15pt;
+    border: none;
+}
+
+#calcalc {
+    background-color: #65ccb8;
+    grid-row: span 2;
+    vertical-align: middle;
+}
+
+#kcal {
+    background-color: #65ccb8;
+    grid-row: span 2;
+}
+
+#titlePageGrid {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
+}
+
+#recsGrid {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
+}
+
+.title {
+    font-family: "Sigmar One";
+    font-size: 9vw;
+    padding: 10px;
+    transform: scale(0.9, 1);
+    letter-spacing: .5rem;
+    text-shadow: #1f5234 1px 2px 2px;
+}
+
+#caloriecounter {
+    grid-column: span 2;
+}
+
+input, textarea {
+    background-color: #78cbae;
+    border: none;
+    border-radius: 5pt;
+    padding: 10pt;
+    justify-content: center;
+}
+
+::placeholder {
+    font-family: Cuprum;
+    align-items: center;
+    font-size: 15pt;
+    color: #3b945e;
+}
+
+#arrow {
+    padding-left: 10pt;
+}
